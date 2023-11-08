@@ -42,16 +42,16 @@ mdp.github
 > :warning: **Si vous n'êtes pas le propriétaires du repo :** (non obligatoire, simplifie juste la vie) pour  créer votre propre clé aller dans le dossier Docs/ -> cle.ssh.md
 
 
-## .debug
+##  .debug
 
 Le fichier .debug se source `source .debug` charge en mémoire tous les composants bash présents dans lib/*.
 Utile pour le débuggage d'un composants
 
-## .test
+##  .test
 
 Le fichier .test se source ou s'éxécute, doit contenir la logique qui teste les composants.
 
-## .admin
+##  .admin
 
 Le fichier .admin se source, contient des fonctions utiles au projets en cours.
 On y retrouve:
@@ -62,7 +62,7 @@ Ceci est utiles pour par example:
 - Réinitialiser des bases de données sqlite / sql / postgress etc...
 - Fournir des rapports, envoyer des emails etc...
 
-## .dev
+##  .dev
 
 Vide par défault, de manière générale contient quelques fonctions / alias utiles pour itérer.
 Quand .env receuille une logique lourde avec beaucoup d'interaction utilisateurs alors le fichier .dev viens récupérer les données générées pour les rendres persistantes dans le temps. 
