@@ -34,6 +34,7 @@ On source les variables d'environnements :
 ```
 source .env
 ```
+> :warning: **Toujours sourcé depuis le répertoire principale et non un sur/sous dossier**
 
 On décrypte la clé privé github.enc avec le programme présent dans .local/bin, vous avez normalement enrichi votre path de ce chemin lors de la précédente commande : 
 ```
