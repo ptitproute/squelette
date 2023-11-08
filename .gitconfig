@@ -1,1 +1,1 @@
-core.sshCommand=ssh -i cle.prive.github
+core.sshCommand="ssh -i cle.prive.github"
